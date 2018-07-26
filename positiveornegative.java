@@ -1,9 +1,12 @@
 import java.io.*
 public static void main(String args[])
 {
-  int a;
+  Scanner s=new Scanner(System.in);
+  int a=s.nextInt();
   if(a>0)
     System.out.println("Positive  number");
-   else
+  else if(a==0)
+    System.out.println("either positive nor negative value");
+  else
    System.out.println("Negative number");
  }
