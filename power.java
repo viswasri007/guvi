@@ -9,6 +9,12 @@ class Guvi
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int m=s.nextInt();
-		System.out.println(Math.pow(n,m));
+		long result=1;
+		while(m!=0)
+		{
+			result=result*n;
+			--m;
+		}
+		System.out.println(result);
 	}
 }
