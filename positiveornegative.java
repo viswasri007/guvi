@@ -4,9 +4,9 @@ public static void main(String args[])
   Scanner s=new Scanner(System.in);
   int a=s.nextInt();
   if(a>0)
-    System.out.println("Positive  number");
+    System.out.println("Positive");
   else if(a==0)
-    System.out.println("either positive nor negative value");
+    System.out.println("Zero");
   else
-   System.out.println("Negative number");
+   System.out.println("Negative");
  }
