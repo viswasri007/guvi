@@ -16,7 +16,7 @@ public class Odd_Even
 	}
 	else
 	{
-		Systen.out.println("invalid");
+		System.out.println("invalid");
 	}
     }
 }
