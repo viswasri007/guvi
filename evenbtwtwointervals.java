@@ -11,7 +11,7 @@ class Guvi
 		for(int num=n+1;num<=m-1;num++)
 		{
 			if(num%2==0)
-			System.out.println(num+" ");
+			System.out.println(num);
 		}
 	}
 }
