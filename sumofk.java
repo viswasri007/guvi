@@ -7,14 +7,14 @@ class Guvi
 	{
 		Scanner s=new Scanner(System.in);
 		int K=s.nextInt();
-		int N=5;
+		int N=s.nextInt();
+		int a[]=new int[n];
+		for(int i=0;i<N;i++)
+			a[i]=s.nextInt();
 		int sum=0;
-		for(int i=1;i<=5;i++)
+		for(int i=0;i<N;i++)
 		{
-			for(int j=1;j<=K;j++)
-			{
-				sum=j+1;
-			}
+			sum=sum+a[i];
 		}
 		System.out.println(sum);
 	}
