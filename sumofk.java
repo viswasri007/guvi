@@ -8,7 +8,7 @@ class Guvi
 		Scanner s=new Scanner(System.in);
 		int K=s.nextInt();
 		int N=s.nextInt();
-		int a[]=new int[n];
+		int a[]=new int[N];
 		for(int i=0;i<N;i++)
 			a[i]=s.nextInt();
 		int sum=0;
