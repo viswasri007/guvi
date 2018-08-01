@@ -6,8 +6,8 @@ class Guvi
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int K=s.nextInt();
 		int N=s.nextInt();
+		int K=s.nextInt();
 		int a[]=new int[N];
 		for(int i=0;i<N;i++)
 			a[i]=s.nextInt();
