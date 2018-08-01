@@ -12,7 +12,7 @@ class Guvi
 		for(int i=0;i<N;i++)
 			a[i]=s.nextInt();
 		int sum=0;
-		for(int i=0;i<N;i++)
+		for(int i=0;i<K;i++)
 		{
 			sum=sum+a[i];
 		}
