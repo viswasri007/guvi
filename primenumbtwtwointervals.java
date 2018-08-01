@@ -17,7 +17,7 @@ class Guvi
 				cnt++;
 			}
 			if(cnt==2)
-			System.out.println(i);
+			System.out.println(i+" ");
 		}
 	}
 }
